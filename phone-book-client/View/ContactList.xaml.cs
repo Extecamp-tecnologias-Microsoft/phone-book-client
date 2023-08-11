@@ -12,16 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Wpf.Ui.Controls;
 
-namespace phone_book_client
+namespace phone_book_client.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interação lógica para ContactList.xam
     /// </summary>
-    public partial class MainWindow : UiWindow
+    public partial class ContactList : Page
     {
-        public MainWindow()
+        public ContactList()
         {
             InitializeComponent();
         }
