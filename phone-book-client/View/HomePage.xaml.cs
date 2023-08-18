@@ -10,18 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Wpf.Ui.Controls;
 
-namespace phone_book_client
+namespace phone_book_client.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica interna para HomePage.xaml
     /// </summary>
-    public partial class MainWindow : UiWindow
+    public partial class HomePage : UiWindow
     {
-        public MainWindow()
+        public HomePage()
         {
             InitializeComponent();
         }
