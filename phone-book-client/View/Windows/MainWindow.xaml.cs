@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Wpf.Ui.Controls;
 
-namespace phone_book_client.View
+namespace phone_book_client.View.Windows
 {
     /// <summary>
-    /// Lógica interna para HomePage.xaml
+    /// Lógica interna para MainWindow.xaml
     /// </summary>
-    public partial class HomePage : UiWindow
+    public partial class MainWindow : UiWindow
     {
-        public HomePage()
+        public MainWindow()
         {
             InitializeComponent();
         }
