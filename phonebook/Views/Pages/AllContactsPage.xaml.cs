@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace phone_book_client
+namespace phonebook.Views.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interação lógica para AllContactsPage.xam
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AllContactsPage : Page
     {
-        public MainWindow()
+        public AllContactsPage()
         {
             InitializeComponent();
         }
