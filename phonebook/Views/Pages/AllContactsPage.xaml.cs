@@ -10,17 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Wpf.Ui.Controls;
 
-namespace phone_book_client.View.Windows
+namespace phonebook.Views.Pages
 {
     /// <summary>
-    /// Lógica interna para MainWindow.xaml
+    /// Interação lógica para AllContactsPage.xam
     /// </summary>
-    public partial class MainWindow : UiWindow
+    public partial class AllContactsPage : Page
     {
-        public MainWindow()
+        public AllContactsPage()
         {
             InitializeComponent();
         }
